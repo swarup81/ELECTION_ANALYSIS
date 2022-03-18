@@ -28,9 +28,9 @@ The results of the election are as follows:
  
  * Raymond Anthony Doane received 11,606 votes, 3.1% of votes out of the total votes.
  
- 5. winner
+5. winner
  
-  *Diane DeGette won the election with 272,892 votes and 73.8% of the total votes.
+  * Diane DeGette won the election with 272,892 votes and 73.8% of the total votes.
            
 # Election-audit summary
 This script can be modified and used for other elections. The first example would be if it were for a federal congressional election, we could use the same script by changing counties to the state. The second example would be adding demographics such as age, sex, and ethnicity among the candidates to understand better which group they should focus on more.
