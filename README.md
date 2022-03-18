@@ -4,7 +4,7 @@ Performing analyses on election_results data using python.
 The project analyses election_results data and submits the election audit result to the election commission.
 ## purpose of the election audit:
 This project aims to conduct an election audit for the colorado board of elections to find the total votes, total county votes, largest county turnout, winning candidates, and the total amount of votes he got and calculate the percentage of winning votes. 
-# Election audit results
+# Election-audit results
 The results of the election are as follows:
 
 1. Total votes
@@ -17,7 +17,7 @@ The results of the election are as follows:
   
   * Arapahoe county had 24,801 voters and 6.7% of votes from each county out of total votes
   
-3.largest county turnout
+3. largest county turnout
   * Denver county had the largest number of votes. 
   
 4. Detailed results of total votes each candidate received
