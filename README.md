@@ -16,6 +16,7 @@ The results of the election are as follows:
   * Denver county had 306,055 voters and 82.8% of votes from each county out of total votes.
   
   * Arapahoe county had 24,801 voters and 6.7% of votes from each county out of total votes
+  
 3.largest county turnout
   * Denver county had the largest number of votes. 
   
