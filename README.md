@@ -11,7 +11,7 @@ The results of the election are as follows:
 
  * The total number of votes cast in this congressional election is 369,711.
 
-# Print the final vote count (to terminal)
+ Print the final vote count (to terminal)
     election_results = (
         f"\nElection Results\n"
         f"-------------------------\n"
@@ -28,7 +28,7 @@ The results of the election are as follows:
   
   * Arapahoe county had 24,801 voters and 6.7% of votes from each county out of total votes
      
-     # 6a: Write a for loop to get the county from the county dictionary.
+  Write a for loop to get the county from the county dictionary.
     for county in county_list
         # 6b: Retrieve the county vote count.
         county_vote = county_votes.get(county)
@@ -47,8 +47,7 @@ The results of the election are as follows:
 3. largest county turnout
   * Denver county had the largest number of votes. 
   
-
-# 6f: Write an if statement to determine the winning county and get its vote count.
+ Write an if statement to determine the winning county and get its vote count.
          if (county_vote > largest_county_turnout_count) and (
              county_vote_percentage > largest_county_percentage):
              
@@ -58,7 +57,7 @@ The results of the election are as follows:
              largest_county_turnout = county
              
               
-    # 7: Print the county with the largest turnout to the terminal.
+ Print the county with the largest turnout to the terminal.
     winiing_county_print = (
         f"-------------------------\n"
         f"largest county turnout: {largest_county_turnout}\n"
@@ -75,7 +74,7 @@ The results of the election are as follows:
  
  * Raymond Anthony Doane received 11,606 votes, 3.1% of votes out of the total votes.
 
-# Retrieve vote count and percentage
+ Retrieve vote count and percentage
         votes = candidate_votes.get(candidate_name)
         vote_percentage = float(votes) / float(total_votes) * 100
         candidate_results = (
@@ -96,7 +95,7 @@ The results of the election are as follows:
             winning_candidate = candidate_name
             winning_percentage = vote_percentage
 
-    # Print the winning candidate (to terminal)
+  Print the winning candidate (to terminal)
     winning_candidate_summary = (
         f"-------------------------\n"
         f"Winner: {winning_candidate}\n"
