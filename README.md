@@ -8,7 +8,8 @@ This project aims to conduct an election audit for the colorado board of electio
 The results of the election are as follows:
 
 1. Total votes
- The total number of votes cast in this congressional election is 369,711.
+
+ * The total number of votes cast in this congressional election is 369,711.
 
 2. votes by county
   * Jefferson County had 38,855 voters and 10.5% of votes from each county out of total votes.
