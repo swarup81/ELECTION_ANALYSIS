@@ -77,7 +77,7 @@ The results of the election are as follows:
 
 
   
- Detailed results of total votes each candidate received
+4. Detailed results of total votes each candidate received
 
  * Charles Casper Stockham received 85,213 votes, 23.0% of votes out of the total votes.
  
@@ -122,6 +122,10 @@ following is the code to generate winning vote count, winning percentage, and ca
     print(winning_candidate_summary)
     
     
+    After running the code and saving it to the text file the ouput is shown in the image:
+    
+    <img width="393" alt="Screen Shot 2022-03-18 at 1 50 11 PM" src="https://user-images.githubusercontent.com/100738688/159105412-61adedfd-34b6-48b6-b1bc-0254edf41618.png">
+
            
 # Election-audit summary
 This script can be modified and used for other elections. The first example would be if it were for a federal congressional election, we could use the same script by changing counties to the state. The second example would be adding demographics such as age, sex, and ethnicity among the candidates to understand better which group they should focus on more.
