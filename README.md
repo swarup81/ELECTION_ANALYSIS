@@ -10,6 +10,8 @@ The results of the election are as follows:
 1. Total votes
 
  * The total number of votes cast in this congressional election is 369,711.
+ 
+ Folllowing is the code to generate total votes:
 
  Print the final vote count (to terminal)
  
@@ -28,6 +30,9 @@ The results of the election are as follows:
   * Denver county had 306,055 voters and 82.8% of votes from each county out of total votes.
   
   * Arapahoe county had 24,801 voters and 6.7% of votes from each county out of total votes
+ 
+  Folllowing is the code to generate county votes:
+  
      
   Write a for loop to get the county from the county dictionary.
     for county in county_list
@@ -47,7 +52,9 @@ The results of the election are as follows:
   
   
 3. largest county turnout
-  * Denver county had the largest number of votes. 
+  * Denver county had the largest number of votes.
+  
+  Folllowing is thw code to generate largest county turnout :
   
  Write an if statement to determine the winning county and get its vote count.
  
@@ -78,6 +85,8 @@ The results of the election are as follows:
  
  * Raymond Anthony Doane received 11,606 votes, 3.1% of votes out of the total votes.
 
+following is the code to generate vote count and percentage:
+
  Retrieve vote count and percentage
  
         votes = candidate_votes.get(candidate_name)
@@ -92,6 +101,8 @@ The results of the election are as follows:
 5. winner
  
   * Diane DeGette won the election with 272,892 votes and 73.8% of the total votes.
+
+following is the code to generate winning vote count, winning percentage, and candidate  :
   
   
  Determine winning vote count, winning percentage, and candidate  
@@ -102,6 +113,7 @@ The results of the election are as follows:
             winning_percentage = vote_percentage
 
   Print the winning candidate (to terminal)
+  
     winning_candidate_summary = (
         f"-------------------------\n"
         f"Winner: {winning_candidate}\n"
