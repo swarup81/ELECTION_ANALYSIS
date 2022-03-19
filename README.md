@@ -12,6 +12,7 @@ The results of the election are as follows:
  * The total number of votes cast in this congressional election is 369,711.
 
  Print the final vote count (to terminal)
+ 
     election_results = (
         f"\nElection Results\n"
         f"-------------------------\n"
@@ -30,6 +31,7 @@ The results of the election are as follows:
      
   Write a for loop to get the county from the county dictionary.
     for county in county_list
+    
         # 6b: Retrieve the county vote count.
         county_vote = county_votes.get(county)
         
@@ -48,6 +50,7 @@ The results of the election are as follows:
   * Denver county had the largest number of votes. 
   
  Write an if statement to determine the winning county and get its vote count.
+ 
          if (county_vote > largest_county_turnout_count) and (
              county_vote_percentage > largest_county_percentage):
              
