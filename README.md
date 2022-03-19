@@ -61,6 +61,7 @@ The results of the election are as follows:
              
               
  Print the county with the largest turnout to the terminal.
+ 
     winiing_county_print = (
         f"-------------------------\n"
         f"largest county turnout: {largest_county_turnout}\n"
@@ -78,6 +79,7 @@ The results of the election are as follows:
  * Raymond Anthony Doane received 11,606 votes, 3.1% of votes out of the total votes.
 
  Retrieve vote count and percentage
+ 
         votes = candidate_votes.get(candidate_name)
         vote_percentage = float(votes) / float(total_votes) * 100
         candidate_results = (
@@ -92,7 +94,8 @@ The results of the election are as follows:
   * Diane DeGette won the election with 272,892 votes and 73.8% of the total votes.
   
   
-   # Determine winning vote count, winning percentage, and candidate  
+ Determine winning vote count, winning percentage, and candidate  
+ 
         if (votes > winning_count) and (vote_percentage > winning_percentage):
             winning_count = votes
             winning_candidate = candidate_name
