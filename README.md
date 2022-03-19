@@ -124,9 +124,11 @@ following is the code to generate winning vote count, winning percentage, and ca
     
     
     
-    After running the code and saving it to the text file the ouput is shown in the image:
     
-    <img width="393" alt="Screen Shot 2022-03-18 at 1 50 11 PM" src="https://user-images.githubusercontent.com/100738688/159105412-61adedfd-34b6-48b6-b1bc-0254edf41618.png">
+    
+    ## election audit result
+    
+    <img width="393" alt="Screen Shot 2022-03-18 at 1 50 11 PM" src="https://user-images.githubusercontent.com/100738688/159105492-62e4d53f-2504-42b0-923a-cfcab70af327.png">
 
            
 # Election-audit summary
