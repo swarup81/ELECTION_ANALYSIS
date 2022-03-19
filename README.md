@@ -6,9 +6,13 @@ The project analyses election_results data and submits the election audit result
 This project aims to conduct an election audit for the colorado board of elections to find the total votes, total county votes, largest county turnout, winning candidates, and the total amount of votes he got and calculate the percentage of winning votes. 
 # Election-audit results
 
-output image of election_results
+output image of election_results in vscode
 
 <img width="393" alt="Screen Shot 2022-03-18 at 1 50 11 PM" src="https://user-images.githubusercontent.com/100738688/159105659-50c5875c-d9f5-4e6a-82ff-d26314702203.png">
+
+output image of election_results in teminal
+
+<img width="479" alt="Screen Shot 2022-03-18 at 1 12 11 PM" src="https://user-images.githubusercontent.com/100738688/159105967-493536c9-edf7-4549-982b-bcfc303c4475.png">
 
 
 The results of the election are as follows:
