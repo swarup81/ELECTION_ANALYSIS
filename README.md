@@ -45,6 +45,7 @@ The results of the election are as follows:
   
      
   Write a for loop to get the county from the county dictionary.
+  
     for county in county_list
     
         # 6b: Retrieve the county vote count.
@@ -64,7 +65,7 @@ The results of the election are as follows:
 3. largest county turnout
   * Denver county had the largest number of votes.
   
-  Folllowing is thw code to generate largest county turnout :
+  Folllowing is the code to generate largest county turnout :
   
  Write an if statement to determine the winning county and get its vote count.
  
@@ -107,7 +108,8 @@ following is the code to generate vote count and percentage:
         # Print each candidate's voter count and percentage to the
         # terminal.
         print(candidate_results)
- 
+        
+ 5. winner       
  
   * Diane DeGette won the election with 272,892 votes and 73.8% of the total votes.
 
