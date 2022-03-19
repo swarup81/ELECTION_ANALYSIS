@@ -1,7 +1,7 @@
 # ELECTION_ANALYSIS
-Performing analyses on election_results data using python.
+Performing analysis on election_results data using python.
 # Overview of the project
-The project analyses election_results data and submits the election audit result to the election commission.
+The project analysis election_results data and submits the election audit result to the election commission.
 ## purpose of the election audit:
 This project aims to conduct an election audit for the colorado board of elections to find the total votes, total county votes, largest county turnout, winning candidates, and the total amount of votes he got and calculate the percentage of winning votes. 
 # Election-audit results
