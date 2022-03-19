@@ -77,7 +77,7 @@ The results of the election are as follows:
 
 
   
-4. Detailed results of total votes each candidate received
+ Detailed results of total votes each candidate received
 
  * Charles Casper Stockham received 85,213 votes, 23.0% of votes out of the total votes.
  
@@ -98,7 +98,6 @@ following is the code to generate vote count and percentage:
         # terminal.
         print(candidate_results)
  
-5. winner
  
   * Diane DeGette won the election with 272,892 votes and 73.8% of the total votes.
 
@@ -121,6 +120,8 @@ following is the code to generate winning vote count, winning percentage, and ca
         f"Winning Percentage: {winning_percentage:.1f}%\n"
         f"-------------------------\n")
     print(winning_candidate_summary)
+    
+    
            
 # Election-audit summary
 This script can be modified and used for other elections. The first example would be if it were for a federal congressional election, we could use the same script by changing counties to the state. The second example would be adding demographics such as age, sex, and ethnicity among the candidates to understand better which group they should focus on more.
