@@ -27,13 +27,9 @@ The results of the election are as follows:
   * Denver county had 306,055 voters and 82.8% of votes from each county out of total votes.
   
   * Arapahoe county had 24,801 voters and 6.7% of votes from each county out of total votes
-  
-3. largest county turnout
-  * Denver county had the largest number of votes. 
-
-# 6a: Write a for loop to get the county from the county dictionary.
-    for county in county_list:
-        
+     
+     # 6a: Write a for loop to get the county from the county dictionary.
+    for county in county_list
         # 6b: Retrieve the county vote count.
         county_vote = county_votes.get(county)
         
@@ -45,6 +41,12 @@ The results of the election are as follows:
             f"{county}: {county_vote_percentage:.1f}% ({county_votes:,})\n")
          #Print county results and percentage to the terminal.
          print(county_results)
+
+  
+  
+3. largest county turnout
+  * Denver county had the largest number of votes. 
+  
 
 # 6f: Write an if statement to determine the winning county and get its vote count.
          if (county_vote > largest_county_turnout_count) and (
@@ -87,9 +89,8 @@ The results of the election are as follows:
  
   * Diane DeGette won the election with 272,892 votes and 73.8% of the total votes.
   
-   # Determine winning vote count, winning percentage, and candidate.
-   
-   
+  
+   # Determine winning vote count, winning percentage, and candidate  
         if (votes > winning_count) and (vote_percentage > winning_percentage):
             winning_count = votes
             winning_candidate = candidate_name
